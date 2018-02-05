@@ -1,4 +1,4 @@
- name: unidata-workshop
+ name: unidata-workshop-mapes
  channels:
    - conda-forge
  dependencies:
@@ -17,6 +17,8 @@
    - pip
    - ffmpeg
    - pytest
+   - ipywidgets
    - pip:
      - python-awips
      - mpldatacursor
+     - drilsdown
